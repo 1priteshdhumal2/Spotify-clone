@@ -13,9 +13,10 @@ body {
 }
 
 .sidebar {
-    background-color: green;
+    background-color: #0000;
     width: 340px;
     border-radius: 1rem;
+    margin-right: 0.5rem;
 }
 
 .main-content {
@@ -98,4 +99,33 @@ a {
 
 .icons i:hover {
     opacity: 1;
+}
+
+.box {
+    background-color: #232323;
+    height: 8.25rem;
+    border-radius: 0.75rem;
+    margin: 1.75rem 0rem;
+    padding: 0.5rem 1rem;
+}
+
+.box-p1 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.box-p2 {
+    font-size: 0.813rem;
+    opacity: 0.9;
+}
+
+.badge {
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    height: 1.5rem;
+    width: fit-content;
 }
