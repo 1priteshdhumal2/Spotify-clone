@@ -131,6 +131,11 @@ a {
     width: fit-content;
 }
 
+.dark-badge {
+    background-color: #0000;
+    color: #fff;
+}
+
 .sticky-nav {
     position: sticky;
     top: 0;
@@ -148,6 +153,7 @@ a {
 
 .sticky-nav-icons img {
     height: 2rem;
+    margin-left: 0.75rem;
 }
 
 .sticky-nav-options {
@@ -156,6 +162,12 @@ a {
     align-items: center;
 }
 
-.sticky-nav-options button {
-    margin: 1rem;
+.nav-item {
+    margin-right: 1rem;
+}
+
+@media (max-width: 1000px) {
+    .hide {
+        display: none;
+    }
 }
