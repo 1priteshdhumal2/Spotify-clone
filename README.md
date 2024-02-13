@@ -38,7 +38,3 @@ Simply open the `index.html` file in your web browser to access the Spotify clon
 ## Contributing
 
 Contributions to the Spotify Clone project are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request on GitHub.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
